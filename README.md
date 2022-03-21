@@ -1,7 +1,8 @@
 # Jaco2SwivelIK
 Closed form Inverse Kinematics alghoritm based on swivel (or elbow) formulation for the Kinova Jaco2 7 d.o.f. (degrees of freedom) manipulator.
 The reference frame of the serial kinematic chain are chosen according to the Kinova manual, that can be found at:
-https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view
+https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view.
+
 The joint angles are consistent with the real joint angles, then the alghoritm can be used to directly control the real robot.
 The alghoritm is presented as a matlab function with all the related sub-function and files.
 
