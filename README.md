@@ -19,11 +19,12 @@ User can find all the explanation of the alghoritm inside the scripts. The main 
   - inv4v3
   - Jaco2GeometricJacobianv4
   - Solveq 
-- LoadJaco2 load the rigidbodytree of the manipulator according to its real joint angles. The funciton can be used to visualize the solution in terms of robot configuration
+- LoadJaco2 load the rigidbodytree of the manipulator according to its real joint angles. The funciton can be used to visualize the solution in terms of robot configuration. The related documents are:
+  - Robot Description/ . The whole folder is copied from the Kinova ROS project for the Jaco 2: https://github.com/Kinovarobotics/kinova-ros.
+  Please note that the function loads the robot geometries from the Robot Descrpition folder, so an error might occur if the repository structure is compromised.
 ## Run the example
 
-Users can run the simple example TestSwiveIK.m to solve the IK problem for a generic goal pose. The script also contains a useful method to show the robot coniguration, base on the LoadJaco2 function, that loads the Kinova Jaco2 manipulator as a rigidbodytree object and plot it in a graph. To successfully run the LoadJaco2 function, please install the Robotic System Toolbox add-on from Mathworks
-
+Users can run the simple example TestSwiveIK.m to solve the IK problem for a generic goal pose. The script also contains a useful method to show the robot coniguration, base on the LoadJaco2 function, that loads the Kinova Jaco2 manipulator as a rigidbodytree object and plot it in a graph. To successfully run the LoadJaco2 function, please install the Robotic System Toolbox add-on from Mathworks.
 
 ### Install the Robotic System Toolbox
 
