@@ -21,6 +21,7 @@ User can find all the explanation of the alghoritm inside the scripts. The main 
   - Solveq 
 - LoadJaco2 load the rigidbodytree of the manipulator according to its real joint angles. The funciton can be used to visualize the solution in terms of robot configuration. The related documents are:
   - Robot Description/ . The whole folder is copied from the Kinova ROS project for the Jaco 2: https://github.com/Kinovarobotics/kinova-ros.
+ 
   Please note that the function loads the robot geometries from the Robot Descrpition folder, so an error might occur if the repository structure is compromised.
 ## Run the example
 
