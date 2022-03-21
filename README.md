@@ -15,4 +15,4 @@ Users can run the simple example TestSwiveIK.m to solve the IK problem for a gen
 
 ### Install the Robotic System Toolbox
 
-![Install1](/images/github-logo.png)
+![Install1](/Images/InstallAddOn.png)
