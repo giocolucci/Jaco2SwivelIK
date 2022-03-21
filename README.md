@@ -15,4 +15,9 @@ Users can run the simple example TestSwiveIK.m to solve the IK problem for a gen
 
 ### Install the Robotic System Toolbox
 
+On Matlab window, open the add-on explorer
 ![Install1](/Images/InstallAddOn.png)
+
+Then, search the Robotic System Toolbox and install it
+![Install1](/Images/RST.png)
+
