@@ -11,3 +11,8 @@ OS : Ubuntu 20.04 LTS
 ## Run the example
 
 Users can run the simple example TestSwiveIK.m to solve the IK problem for a generic goal pose. The script also contains a useful method to show the robot coniguration, base on the LoadJaco2 function, that loads the Kinova Jaco2 manipulator as a rigidbodytree object and plot it in a graph. To successfully run the LoadJaco2 function, please install the Robotic System Toolbox add-on from Mathworks
+
+
+### Install the Robotic System Toolbox
+
+![Install1](/images/github-logo.png)
