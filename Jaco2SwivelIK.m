@@ -1,6 +1,6 @@
 function [q] = Jaco2SwivelIK(Tgoal,phi, swivelIKOption)
 
-%% IK solver for Kinova Jaco2 manipulator based on Swivel Angle.
+%% IK solver for Kinova Jaco2 7dof manipulator based on Swivel Angle.
 % The function can be used in two ways:
 % 
 % - Starting from a specified target pose (Tgoal), the function calculates the
