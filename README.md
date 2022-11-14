@@ -6,7 +6,8 @@ https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view.
 The joint angles are consistent with the real joint angles, then the alghoritm can be used to directly control the real robot.
 The alghoritm is presented as a matlab function with all the related sub-function and files.
 
-Authors : Giovanni Colucci and Luigi Tagliavini 
+Authors : Giovanni Colucci and Luigi Tagliavini
+
 Affiliation : Politecnico di Torino, Torino (To), Italy
 
 Tested on : Dell XPS Intel® Core™ i7-10510U CPU @ 1.80GHz × 8 
@@ -26,7 +27,12 @@ User can find all the explanation of the alghoritm inside the scripts. The main 
   
 ## Run the example
 
-Users can run the simple example TestSwiveIK.m to solve the IK problem for a generic goal pose. The script also contains a useful method to show the robot coniguration, base on the LoadJaco2 function, that loads the Kinova Jaco2 manipulator as a rigidbodytree object and plot it in a graph. To successfully run the LoadJaco2 function, please install the Robotic System Toolbox add-on from Mathworks.
+Users can run the simple example TestSwiveIK.m to solve the IK problem for:
+- a specific goal posture ("fixed" swivelIKOption), where the user must specify the corresponding elbow angle;
+- extract the best posture for a specified pose ("optimize" swivelIKOption) according to a modified version of the Togai manipulability index;
+- compute the whole set of possible solutions with a discretization step ("all" swivelIKOption). 
+
+The script also contains a useful method to show the robot configuration, based on the LoadJaco2 function, that loads the Kinova Jaco2 manipulator as a rigidbodytree object and plot it in a graph. To successfully run the LoadJaco2 function, please install the Robotic System Toolbox add-on from Mathworks.
 
 ### Install the Robotic System Toolbox
 
