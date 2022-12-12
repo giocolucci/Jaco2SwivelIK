@@ -1,5 +1,9 @@
 # Jaco2SwivelIK
 Closed form Inverse Kinematics alghoritm based on swivel (or elbow) formulation for the Kinova Jaco2 7 d.o.f. (degrees of freedom) manipulator.
+Reference:
+1. G. Colucci, A. Botta, L. Tagliavini, P. Cavallone, L. Baglieri, & G. Quaglia, Kinematic Modeling and Motion Planning of the Mobile Manipulator Agri. Q for Precision Agriculture. Machines, 10 (2022) 321.
+2. G. Colucci, L. Baglieri, A. Botta, P. Cavallone, & G. Quaglia, Optimal Positioning of Mobile Manipulators Using Closed Form Inverse Kinematics. International Conference on Robotics in Alpe-Adria Danube Region (Springer, 2022), pp. 184–191.
+
 The reference frame of the serial kinematic chain are chosen according to the Kinova manual, that can be found at:
 https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view.
 
