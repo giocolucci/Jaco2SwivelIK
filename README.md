@@ -4,8 +4,6 @@
   <img src=/Images/Kinova_Fig.png />
 </p>
 
-![Kinova_Fig](/Images/Kinova_Fig.png)
-
 Closed form Inverse Kinematics alghoritm based on swivel (or elbow) formulation for the Kinova Jaco2 7 d.o.f. (degrees of freedom) manipulator.
 List of references:
 1. G. Colucci, L. Tagliavini, A. Botta, L. Baglieri, & G. Quaglia, Decoupled motion planning of a mobile manipulator for precision agriculture. Robotica. 2023;41(6):1872-1887. [https://doi.org/10.1017/S0263574723000243](https://doi.org/10.1017/S0263574723000243)
@@ -49,8 +47,15 @@ The script also contains a useful method to show the robot configuration, based 
 ### Install the Robotic System Toolbox
 
 On Matlab window, open the add-on explorer
-![Install1](/Images/InstallAddOn.png)
+
+<p align="center">
+  <img src=/Images/InstallAddOn.png />
+</p>
 
 Then, search the Robotic System Toolbox and install it
-![Install1](/Images/RST.png)
+
+<p align="center">
+  <img src=/Images//Images/RST.png />
+</p>
+
 
