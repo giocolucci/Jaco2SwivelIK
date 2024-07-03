@@ -55,7 +55,7 @@ On Matlab window, open the add-on explorer
 Then, search the Robotic System Toolbox and install it
 
 <p align="center">
-  <img src=/Images//Images/RST.png />
+  <img src=/Images/RST.png />
 </p>
 
 
