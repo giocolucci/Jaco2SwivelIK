@@ -1,4 +1,5 @@
 # Jaco2SwivelIK
+![Kinova_Fig](/Images/Kinova_Fig.png)
 Closed form Inverse Kinematics alghoritm based on swivel (or elbow) formulation for the Kinova Jaco2 7 d.o.f. (degrees of freedom) manipulator.
 List of references:
 1. G. Colucci, L. Tagliavini, A. Botta, L. Baglieri, & G. Quaglia, Decoupled motion planning of a mobile manipulator for precision agriculture. Robotica. 2023;41(6):1872-1887. [https://doi.org/10.1017/S0263574723000243](https://doi.org/10.1017/S0263574723000243)
